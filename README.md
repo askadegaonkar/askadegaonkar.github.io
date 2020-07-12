@@ -1,4 +1,4 @@
-## Hi, I'am Atharva kadegaonkar
+## Hi, I'am Atharva Kadegaonkar
 
 Welcome !
 
@@ -11,9 +11,10 @@ Also, I have been railfanning and will continue to pursue that as an hobby.
 
 Feel free to contact me here:
 
-Linkedin - @askadegaonkar
-Facebook - Atharva Kadegaonkar
-Instagram - @askadegaonkar (Its filled with railfanning)
+[GitHub] (https://github.com/askadegaonkar)
+[Linkedin - Atharva Kadegaonkar] (https://in.linkedin.com/in/atharva-kade003) |
+[Facebook - Atharva Kadegaonkar] (https://www.facebook.com/atharva.kadegaonkar)|
+[Instagram - @askadegaonkar] (https://www.instagram.com/askadegaonkar/?hl=en)(Its filled with railfanning)
 
 Till then see ya !
 

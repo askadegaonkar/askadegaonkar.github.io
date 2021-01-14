@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Happy+Monkey);
+html{
+scroll-behaviour: smooth;
+}
 body{
 	background-color: black;
 	color: white;

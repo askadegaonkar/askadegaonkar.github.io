@@ -1,4 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Happy+Monkey);
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
 html{
 scroll-behavior: smooth;
 }

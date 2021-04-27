@@ -9,6 +9,20 @@
 	<title>Coding diary</title>
 	<style type="text/css">
 		@import url(https://fonts.googleapis.com/css?family=Happy+Monkey);
+		#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
 		html {
   scroll-behavior: smooth;
 }
@@ -26,6 +40,7 @@
 	</style>
 </head>
 <body align="center">
+<div id="loader" class="center"></div>
 <a id="top"></a>
 <h1>print("Coding diary") 💻</h1>
 <button type="button" class="btn btn-default"><a href="/index.html">Home</a></button>
@@ -46,5 +61,16 @@ Although, we had a subject on OOPS using JAVA but the programming was not of tha
 <a href="https://in.linkedin.com/in/atharva-kade003" target="_blank"><img src="images/linkedin.png" width="60px" height="60px"></a>
 <footer>Atharva S. Kadegaonkar</footer>
 <div align="right"><a href="#"><button class="btn btn-light btn-lg back-to-top"role="button"><b class="fas fa-chevron-up">🔼</b></button></a></div>
+	<script>
+  document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+</script>      
 </body>
 </html>

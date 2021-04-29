@@ -1,3 +1,3 @@
 ## askadegaonkar
 My personal site:
-https://www.askadegaonkar.github.io
+https://askadegaonkar.github.io/

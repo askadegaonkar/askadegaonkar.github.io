@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Happy+Monkey);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap);
 #loader {
   border: 6px solid #f3f3f3;
   border-radius: 5%;
@@ -31,7 +32,7 @@ scroll-behavior: smooth;
 body{
 	background-color: black;
 	color: white;
-	font-family: "Happy Monkey",cursive,ariel;
+	font-family: "Roboto Slab",cursive,ariel;
 	animation: page 3s;
   font-size:18px;
   margin:15px;

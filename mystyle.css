@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Happy+Monkey);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap);
+
 #loader {
   border: 6px solid #f3f3f3;
   border-radius: 5%;
@@ -12,7 +13,7 @@
 
 @keyframes spin {
   100% {
-      transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 
@@ -26,40 +27,63 @@
   margin: auto;
 }
 
-html{
-scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-	background-color: black;
-	color: white;
-	font-family: "Roboto Slab",cursive,ariel;
-	animation: page 3s;
-  font-size:18px;
-  margin:15px;
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto Slab", cursive, ariel;
+  animation: page 3s;
+  font-size: 18px;
+  margin: 15px;
 }
+
 @keyframes page {
-  from {background-color:grey;}
-  to {background-color: black;}
-}
-.typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em; /*solid orange The typwriter cursor */
-  white-space: wrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
-  animation: 
-    typing 3.5s steps(300,end),
-    blink-caret .75s step-end infinite;
+  from {
+    background-color: grey;
+  }
+
+  to {
+    background-color: black;
+  }
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+/*Changes added for Fade in and out*/
+
+.fade {
+  margin: auto;
 }
 
-/* The typewriter cursor effect*/
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+@keyframes fadeInY {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInY;
+}
+
+@keyframes fadeInX {
+  0% {
+    transform: translateZ(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateZ(0%);
+    opacity: 1;
+  }
+}
+
+.fadeIn-animation {
+  animation: 1.5s fadeInX;
 }
